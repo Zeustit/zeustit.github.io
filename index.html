@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 
     <script>
+        function ask_age(age){
+            result = confirm("Вы уверены, что вам " + age)
+        }
         function max(a,b) {
             if (a > b){
                 console.log('Maximum is: ', a)
@@ -15,7 +18,13 @@
                 console.log('Maximum is: ', b)
             }
         }
+        console.log("max(5,10):")
         max(5,10)
+        let admin, name
+        name = "Андрей"
+        console.log("name:" + name)
+        admin = name
+        console.log("admin:" + admin)
     </script>
 
 </head>
